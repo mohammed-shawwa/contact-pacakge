@@ -1,0 +1,19 @@
+{
+    "name": "shawwa/contact",
+    "description": "test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Shawwa",
+            "email": "mohammed.o.alshawwa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shawwa\\Contact\\": "src/"
+        }
+    }
+}
