@@ -15,5 +15,15 @@
         "psr-4": {
             "Shawwa\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shawwa\\Contact\\ContactServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Shawwa\\Contact\\Facade"
+            }
+        }
     }
 }
